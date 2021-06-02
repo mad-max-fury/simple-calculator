@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+
+<body>
+  <main id="main">
+    <div class="calc-wrapper">
+      <section class="top-calc">
+        <div class="control">
+          <div class="title-head" id="title">
+            <h2>Calc</h2>
+          </div>
+          <div class="theme-control" id="theme">
+            <h3>Theme</h3>
+            <div class="theme-slider">
+              <div class="number">
+                <span id="slideindex">123</span>
+              </div>
+              <div class="slide">
+                <div id="slide-bar"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="display" id="display">
+          <div id="result"></div>
+        </div>
+      </section>
+      <section class="keypad" id="keypadId">
+        <button class="digit clickcolor">7</button>
+        <button class="digit clickcolor">8</button>
+        <button class="digit clickcolor">9</button>
+        <button class="clear " id="colorClear" data-action="clear">DEL</button>
+        <button class="digit clickcolor">4</button>
+        <button class="digit clickcolor">5</button>
+        <button class="digit clickcolor">6</button>
+        <button class="operator clickcolor" data-action="plus">&plus;</button>
+        <button class="digit clickcolor">1</button>
+        <button class="digit clickcolor">2</button>
+        <button class="digit clickcolor">3</button>
+        <button class="operator clickcolor" data-action="minus">-</button>
+        <button class="decimal clickcolor" data-action="decimal">.</button>
+        <button class="digit clickcolor">0</button>
+        <button class="operator clickcolor" data-action="divide">/</button>
+        <button class="operator clickcolor" data-action="multiply">&times;</button>
+        <button class="reset" id="colorReset" data-action="reset">Reset</button>
+        <button class="operator" id="colorEqual" data-action="equal">&equals;</button>
+      </section>
+    </div>
+  </main>
+  <script src="calcApp.js"></script>
+</body>
+
+</html>
