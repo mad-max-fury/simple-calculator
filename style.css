@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  Font-family:Spartan;
 }
 
 body {
@@ -22,7 +23,7 @@ main {
 .calc-wrapper {
   display: flex;
   flex-direction: column;
-  height: 70%;
+  height: 80%;
   width: 30%;
   /* border: 1px solid yellow; */
   /* justify-content: space-evenly; */
