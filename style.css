@@ -4,6 +4,9 @@
   box-sizing: border-box;
   Font-family:Spartan;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   height: 100vh;
